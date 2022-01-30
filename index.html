@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>African spot</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!--NAVBAR SECTION-->
     <header class="header">
-        <a href="#" class="logo">
-            <i class="fas fa-utensils"></i>
-        </a>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#meals">Meals</a>
-            <a href="reviews">Reveiws</a>
-            <a href="contact">contacts</a>
-            <a href="#blogs">Blogs</a>
-        </nav>
+      <a href="#" class="logo">
+        <i class="fas fa-utensils"></i>
+      </a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#meals">Meals</a>
+        <a href="reviews">Reveiws</a>
+        <a href="contact">contacts</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
 
-        <div class="icons">
-            <div class="fas fa-search" id="search-btn"></div>
-            <div class="fas fa-shopping-cart" id="cart-btn"></div>
-            <div class="fas fa-bars" id="menu-btn"></div>
-            
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
 
+      <div class="search-form">
+          <input type="search" id="search-box" placeholder="search">
+          <label for="search-box" class="fas fa-search"></label>
+      </div>
+      <div class="cart-items-container">
+          <div class="cart-items">
+              <span class="fas fa-times"></span>
+              <img src="./images/rice-beans.png" alt="">
+              <div class="content">
+                  <h3>cart-item01</h3>
+                  <div class="price">$17.99/-</div>
+              </div>
+          </div>
+
+          <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="./images/rice-plantain.png" alt="">
+            <div class="content">
+                <h3>cart-item02</h3>
+                <div class="price">$17.99/-</div>
+            </div>
         </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="./images/favpng_jollof-rice-fried-rice-fried-chicken-african-cuisine-nigerian-cuisine.png" alt="">
+            <div class="content">
+                <h3>cart-item03</h3>
+                <div class="price">$17.99/-</div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="./images/special-jollof.jpg" alt="">
+            <div class="content">
+                <h3>cart-item04</h3>
+                <div class="price">$17.99/-</div>
+            </div>
+        </div>
+
+         <a href="#"  class="btn">checkout now</a>
+
+      </div>
+      
     </header>
-    
-
-
-
-
-
 
     <script src="App.js"></script>
-</body>
+  </body>
 </html>
