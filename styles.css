@@ -40,6 +40,19 @@ body{
 section{
     padding: 2rem 7%;
 }
+
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2.5rem;
+}
+
+.heading span{
+    color:var(--maincolor);
+    text-transform: uppercase;  
+}
 header{
     background: var(--bg);
     display: flex;
@@ -208,8 +221,38 @@ right: 0;
     color:#eee;
 }
 
+.about .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap:wrap ;
+    font-size: 1.6rem;
+    width: 100%;
+}
 
+.about .row .image{
+    flex: 1 1 45rem;
+}
+.about .row .image img{
+     width: 100%;
+}
 
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 1rem;
+}
+
+.about .row .content h3{
+    font: rem;
+    color: #fff;
+}
+
+.about .row .content p{
+    font: 2rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 
