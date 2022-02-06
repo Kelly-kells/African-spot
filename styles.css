@@ -3,7 +3,7 @@
 
 
 :root{
-    --maincolor:#d3ad7f;
+    --maincolor:hsl(39, 100%, 50%);
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255,.3)
@@ -128,7 +128,7 @@ color: orange;
 }
 
 .cart-items img{
-width: 100px;
+width: 200px;
 height: 6rem;
 }
 
@@ -268,6 +268,7 @@ right: 0;
 
 .menu .box-container .box img{
 height: 10rem;
+
 }
 
 .menu .box-container .box h3{
@@ -296,7 +297,35 @@ height: 10rem;
 
 
 
+.products .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
 
+.products .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.image img{
+    width: 200px;
+}
+
+.products .box-container .box .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: var(--border);
+    color: #fff;
+    margin: 2rem;
+}
+
+.products .box-container .box .icons a:hover{
+    background: var(--maincolor)
+}
 
 
 
