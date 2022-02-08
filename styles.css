@@ -310,7 +310,8 @@ height: 10rem;
 }
 
 .image img{
-    width: 200px;
+    width: 300px;
+    
 }
 
 .products .box-container .box .icons a{
@@ -326,12 +327,82 @@ height: 10rem;
 .products .box-container .box .icons a:hover{
     background: var(--maincolor)
 }
+.products .box-container .box .image{
+    padding: 2.5rem 0;
+}
+.products .box-container .box .content h3{
+color: #fff;
+font-size: 2.5rem;
+}
+.products .box-container .box .content h3{
+    padding: 1rem;
+}
+.products .box-container .box .content i{
+    font-size: 1.7rem;
+    color: var(--maincolor);
+}
+
+.products .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.products .box-container .box .price span{
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+
+.reveiws .box-container{
+
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem 2rem;
+}
+.reveiws .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.reveiws .box-container .box p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2rem 0;
+}
+.reveiws .box-container .box img{
+    height: 7rem;
+}
+
+.reveiws .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.reveiws .box-container .box .stars i{
+    font-size: 1.5rem;
+color: var(--maincolor);
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 @media (max-width:991px) {
     
