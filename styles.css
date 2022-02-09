@@ -479,10 +479,41 @@ transform:scale(1.2) ;
     padding: 1rem 0;
 }
  
+.footer{
+    background: var(--black);
+    text-align: center;
+}
+.footer .share{
+    padding: 1rem 0;
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--black);
+    margin: .3rem;
+    border-radius: 50%;
+}
+.footer .share a:hover{
+    background-color: var(--maincolor);
 
-
-
-
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 0;
+    
+}
+.footer .links a{
+    
+    color: #fff;
+   
+    font-size: 2rem;
+}
 
 
 
